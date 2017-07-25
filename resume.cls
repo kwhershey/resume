@@ -68,7 +68,7 @@
 \def \printname {
   \begingroup
     \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
-    \nameskip\break
+    \break
   \endgroup
 }
 
@@ -94,12 +94,13 @@
 
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
-  \sectionskip
+  %\sectionskip
+  \vspace{0.3em} % Some space after the list of bullet points
   \MakeUppercase{\bf #1} % Section title
   \sectionlineskip
   \hrule % Horizontal line
 %\begin{list}{$\cdot$}{ % List for each individual item in the section
-  \begin{list}{$\cdot$}{\leftmargin=2em} % \cdot used for bullets, no indentation
+  \begin{list}{$\cdot$}{\leftmargin=1em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   %}{
 %    \setlength{\leftmargin}\vspace{1.5em} % Margin within the section
@@ -123,18 +124,18 @@
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
   \end{list}
-  \vspace{0.5em} % Some space after the list of bullet points
+  \vspace{0.15em} % Some space after the list of bullet points
 }
 
-\newenvironment{rSubsubsection}[2]{ % 4 input arguments - job title and dates 
+\newenvironment{rSubsubsection}[1]{ % 4 input arguments - job title and dates 
  {
-  {\em #1} \hfill {\em #2} % Italic job title and location
-  }\smallskip
-  \begin{list}{$\cdot$}{\leftmargin=2em} % \cdot used for bullets, no indentation
+  {\em #1}  % Italic job title and location
+  }%\smallskip
+  \begin{list}{$\cdot$}{\leftmargin=1.1em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
   \end{list}
-  \vspace{0.5em} % Some space after the list of bullet points
+  \vspace{-0.5em} % Some space after the list of bullet points
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
