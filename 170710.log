@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.9)  14 JUL 2017 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.13)  24 JUL 2017 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **170710.tex
 (./170710.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 2 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (./resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -43,7 +43,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
@@ -130,7 +130,7 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 31--31
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (15.47456pt too wide) in paragraph at lines 222--223
+Overfull \hbox (15.47456pt too wide) in paragraph at lines 216--217
 []\OT1/cmr/m/n/10 F Xu, \OT1/cmr/bx/n/10 KW Her-shey\OT1/cmr/m/n/10 , RH Holmes
 , TR Hoye. \OT1/cmr/m/it/10 Blue-Emitting Ary-lalkynyl Naph-tha-lene Deriva-tiv
 es via a Hexadehydro-
@@ -138,10 +138,10 @@ es via a Hexadehydro-
 
 [3] [4] (./170710.aux) ) 
 Here is how much of TeX's memory you used:
- 858 strings out of 495020
- 11574 string characters out of 6181325
- 72388 words of memory out of 5000000
- 4123 multiletter control sequences out of 15000+600000
+ 858 strings out of 494953
+ 11567 string characters out of 6180977
+ 72884 words of memory out of 5000000
+ 4193 multiletter control sequences out of 15000+600000
  4900 words of font info for 18 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,11n,21p,533b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -151,7 +151,7 @@ nts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on 170710.pdf (4 pages, 99928 bytes).
+Output written on 170710.pdf (4 pages, 100745 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
