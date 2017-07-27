@@ -1,0 +1,74 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\usepackage{ragged2e}
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Kyle W}{Hershey}
+\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{2296 Long Avenue}{Saint Paul}{MN}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone{+1~(608)~345~8595}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{kwhershey@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Dow Chemical Company}{2030 Dow Center \\ Midland, MI 48674}%{Company, Inc.\\123 somestreet\\some city}
+\date{July 27, 2017}
+\opening{Dear Dr. Zhang-Watson and Dr. Koppi,}
+\closing{Sincerely,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\justify
+Please find my enclosed application for the open "Ph.D Non-Polymer Materials Engineer" position at the Dow Chemical Company.  I expect to graduate in the summer of 2018 with a  Ph.D in Materials Science and Engineering from the University of Minnesota (UMN).  During my time as a graduate student, I have been sponsored by a University Partnership Initiative from the Dow Chemical Company, collaborating with employees in Michigan, Massachusetts and Korea.  I have become well acquainted with the strong research environment available at Dow and would be very interested in becoming a part of this excellent team.  My background in research and coursework has made me a strong problem solver and I am confident I would be a valuable addition to the Dow team.
+
+My graduate work with Prof. Russell Holmes on understanding kinetic processes of Organic Light-Emitting Devices (OLEDs) on multiple time scales has prepared me well to approach research problems related to materials.  Through manufacturing and characterizing OLEDs, my research investigated the fundamental physics of energy transfer within these devices leading to light formation.  I explored both the transient kinetics at short times, as well as degradation during the operational lifetime, developing novel experimental techniques to expose new information which enabled deeper understanding and further optimization of devices. In addition to my experimental work, I have made significant improvements to data acquisition and storage capabilities within the laboratory.  This has included designing multiplexed laboratory equipment, writing testing and control software, and integrating the collected data into a central storage database.  This has allowed for seamless collection of data along with an ability to quickly compare multiple datasets across any parameter, and was inspired by the high-throughput systems used by Dow.  
+%This level integration between the laboratory and the collected data was required as I developed new laboratory equipment capable of multiplexing our operational lifetime apparatus.  
+
+I believe the experience and technical skills I have acquired (outlined in my attached resume) have prepared me well to tackle challenges at the Dow Chemical Company.  I believe my experience has made me a strong candidate for working in electronic materials, but given my experience with designing laboratory equipment and writing data collection and analysis software, I am confident I would be beneficial working on projects related to high-throughput systems and data acquisition, as well.
+
+As a materials engineer with experience in device physics, software development, and data management, I would be very excited to have the opportunity to work in the Dow environment.  I look forward to speaking with you more about how I could contribute to Dow.  Please contact me if you have any questions.
+
+
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
