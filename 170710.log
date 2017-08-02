@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.19)  25 JUL 2017 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.19)  27 JUL 2017 15:57
 entering extended mode
 **./170710.tex
 (170710.tex
@@ -130,35 +130,21 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 31--31
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Overfull \hbox (5.47455pt too wide) in paragraph at lines 208--209
-[]\OT1/cmr/m/n/10 F Xu, \OT1/cmr/bx/n/10 KW Her-shey\OT1/cmr/m/n/10 , RH Holmes
+Overfull \hbox (8.11343pt too wide) in paragraph at lines 207--208
+[]\OT1/cmr/m/n/10 F Xu, \OT1/cmr/bx/n/10 KW Her-shey\OT1/cmr/m/n/10 , RJ Holmes
 , TR Hoye. \OT1/cmr/m/it/10 Blue-Emitting Ary-lalkynyl Naph-tha-lene Deriva-tiv
 es via a Hexadehydro-
- []
-
-
-Overfull \hbox (1.2298pt too wide) in paragraph at lines 218--219
-[]\OT1/cmr/bx/n/10 KW Her-shey\OT1/cmr/m/n/10 , RJ Holmes.\OT1/cmr/m/it/10 Deco
-upling Degra-da-tion Mech-a-nisms Dur-ing Life-time Test-ing of Or-ganic Light-
-Emitting
- []
-
-
-Overfull \hbox (1.2298pt too wide) in paragraph at lines 224--225
-[]\OT1/cmr/bx/n/10 KW Her-shey\OT1/cmr/m/n/10 , RJ Holmes.\OT1/cmr/m/it/10 Deco
-upling Degra-da-tion Mech-a-nisms Dur-ing Life-time Test-ing of Or-ganic Light-
-Emitting
  []
 
 [3] (170710.aux) ) 
 Here is how much of TeX's memory you used:
  858 strings out of 493334
  11721 string characters out of 3136660
- 77405 words of memory out of 3000000
+ 77407 words of memory out of 3000000
  4435 multiletter control sequences out of 15000+200000
  5259 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,21p,524b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,11n,21p,556b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
@@ -167,7 +153,7 @@ cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 r7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.p
 fb>
-Output written on 170710.pdf (3 pages, 116525 bytes).
+Output written on 170710.pdf (3 pages, 117497 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
