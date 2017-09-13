@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.9)  13 SEP 2017 10:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.9)  13 SEP 2017 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -130,31 +130,32 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 31--31
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (15.47456pt too wide) in paragraph at lines 216--217
+Overfull \hbox (10.47455pt too wide) in paragraph at lines 207--208
 []\OT1/cmr/m/n/10 F Xu, \OT1/cmr/bx/n/10 KW Her-shey\OT1/cmr/m/n/10 , RH Holmes
 , TR Hoye. \OT1/cmr/m/it/10 Blue-Emitting Ary-lalkynyl Naph-tha-lene Deriva-tiv
 es via a Hexadehydro-
  []
 
-[3] [4] (./170710.aux) ) 
+[3] (./170710.aux) ) 
 Here is how much of TeX's memory you used:
- 858 strings out of 495020
- 11574 string characters out of 6181325
- 72395 words of memory out of 5000000
- 4123 multiletter control sequences out of 15000+600000
- 4900 words of font info for 18 fonts, out of 8000000 for 9000
+ 861 strings out of 495020
+ 11609 string characters out of 6181325
+ 72423 words of memory out of 5000000
+ 4125 multiletter control sequences out of 15000+600000
+ 5259 words of font info for 19 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,11n,21p,533b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on 170710.pdf (4 pages, 100827 bytes).
+ 29i,11n,21p,554b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on 170710.pdf (3 pages, 112347 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 42 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
