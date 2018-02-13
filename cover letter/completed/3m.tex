@@ -1,0 +1,88 @@
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\usepackage{ragged2e}
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Kyle W}{Hershey}
+\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{2296 Long Avenue}{Saint Paul}{MN}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone{+1~(608)~345~8595}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+\email{kwhershey@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\newcommand{\company}{3M}
+\newcommand{\shortcompany}{3M}
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{3M}{3M Center\\ Saint Paul, MN 55144-1000}%{Company, Inc.\\123 somestreet\\some city}
+%\date{September 14, 2017}
+\date{\today}
+\opening{To Whom It May Concern,}
+\closing{Sincerely,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\justify
+Please find my attached application for the open "Research and Development PhD Professional" position at \company{}.
+I expect to graduate with a Ph.D in Materials Science and Engineering in the summer of 2018, having worked with Prof. Russell Holmes at the University of Minnesota (UMN).
+While working on my Ph.D, I have had the privilege of touring the \shortcompany{}  campus and giving a poster presentation in the 3M  Innovation Center, as well as attending informational sessions about \company{} on the UMN campus.
+I have been very impressed with the spirit of collaborative innovation that \company{} fosters and am excited for the opportunity to join this team.
+My background in research and relevant coursework has given me a breadth of experience and strong problem solving skills that I am confident I would be a valuable addition to \company{}.
+
+My graduate work on understanding kinetic processes of Organic Light-Emitting Devices (OLEDs) on multiple time scales has prepared me well to approach research problems related to materials.
+Through manufacturing and characterizing OLEDs, my research investigated the fundamental physics of energy transfer within these devices leading to light formation.
+I explored both the transient kinetics at short times, as well as degradation during the operational lifetime, developing novel experimental techniques to expose new information which enabled deeper understanding and further optimization of the underlying physics. 
+
+In addition to my experimental work, I have taken the initiative to make significant improvements in data acquisition and analysis capabilities within the laboratory.
+This has included designing multiplexed laboratory equipment, writing testing and control software, and integrating the collected data into a central storage database.
+Inspired by the high-throughput systems used in industrial research, this has allowed for seamless collection of data along with an ability to quickly compare multiple datasets across any parameter. 
+These capabilities are changing the way that our research group is able to look at experimental trends and provides a deeper insight into data we have collected.
+%This level integration between the laboratory and the collected data was required as I developed new laboratory equipment capable of multiplexing our operational lifetime apparatus.  
+
+%The technical expertise I have acquired has prepared me well to tackle challenges at \company{}.
+I know my unique multifaceted perspective and passion would be an asset to the cutting edge research team at \company{}.
+My research in understanding device physics of OLEDs has made me a strong candidate for working on analytical research. 
+Given my experience with designing laboratory equipment and writing data collection and analysis software, I am confident I would also be well-suited to working on projects related to high-throughput systems and data science.
+
+I would be very excited to have the opportunity to work in the \shortcompany{}  environment.
+I look forward to speaking with you more about how I could contribute to \company{}.
+Please contact me if you have any questions.
+
+
+
+\makeletterclosing
+
+\end{document}
+
+
